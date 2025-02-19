@@ -1,0 +1,22 @@
+---
+title: 'Conversion Tracking'
+description: 'This page explains how to use Conversion Tracking for Planpoint.'
+---
+
+### Here's a video guide:
+
+<iframe src="https://streamable.com/e/80h6uc" width="100%" height="400px"> </iframe>
+
+### If you’re using Planpoint’s default Lead Gen Form
+
+Additionally, you can also make use of UTM parameters to keep track of where specific leads are coming from.
+
+You can use the **Redirect URL** to point to a thank you page on your website and Planpoint will dynamically add the specific UTM parameters that were present on the page when he filled up the form.
+
+So, for example, let’s imagine you have the following setup:
+
+- Your Planpoint Viewer is embedded at www.project.com/plans and;
+- IYour redirect page after the form is completed is www.project.com/thank-you;
+- You’re running an advertising campaign that adds various UTMs such as `?utm_source=google` to the base URL;
+- So, www.project.com/plans becomes www.project.com/plans?utm_source=google ;
+- After the visitor fills up the form, he’s automatically redirected to www.project.com/thank-you?utm_source=google where `?utm_source=google` was added dynamically.
