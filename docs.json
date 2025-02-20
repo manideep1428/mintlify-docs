@@ -15,24 +15,27 @@
         "icon": "book-open",
         "tabs": [
           {
-            "tab": "General",
+            "tab": "Overview",
             "groups": [
               {
-                "group": "Creation",
+                "group": "Introduction",
+                "pages": ["welcome", "checklist", "settings"]
+              },
+              {
+                "group": "Quick Start",
+                "pages": ["preview-embed", "media-gallery"]
+              }
+            ]
+          },
+          {
+            "tab": "User Guide",
+            "groups": [
+              {
+                "group": "Core Features",
                 "pages": [
-                  "welcome",
-                  "checklist",
-                  "settings",
                   "exterior",
                   "units",
                   "floors",
-                  "preview-embed",
-                  "media-gallery"
-                ]
-              },
-              {
-                "group": "Editing and Management",
-                "pages": [
                   "edit-info",
                   "members",
                   "link-units",
@@ -40,7 +43,7 @@
                 ]
               },
               {
-                "group": "Advanced Features",
+                "group": "Advanced Tools",
                 "pages": [
                   "multi-phase",
                   "enterprise",
@@ -58,22 +61,18 @@
             ]
           },
           {
-            "tab": "API",
+            "tab": "API Reference",
             "groups": [
               {
-                "group": "General",
-                "pages": [
-                  "api-documentation/introduction"
-                ]
+                "group": "Introduction",
+                "pages": ["api-documentation/introduction"]
               },
               {
                 "group": "Authentication",
-                "pages": [
-                  "api-documentation/endpoint/user/login"
-                ]
+                "pages": ["api-documentation/endpoint/user/login"]
               },
               {
-                "group": "GET",
+                "group": "GET Requests",
                 "pages": [
                   "api-documentation/endpoint/groups/get",
                   "api-documentation/endpoint/projects/get",
@@ -84,7 +83,7 @@
                 ]
               },
               {
-                "group": "POST",
+                "group": "POST Requests",
                 "pages": [
                   "api-documentation/endpoint/groups/post",
                   "api-documentation/endpoint/projects/post",
@@ -92,7 +91,7 @@
                 ]
               },
               {
-                "group": "PATCH",
+                "group": "PATCH Requests",
                 "pages": [
                   "api-documentation/endpoint/groups/patch",
                   "api-documentation/endpoint/projects/id/patch",
@@ -100,33 +99,29 @@
                 ]
               },
               {
-                "group": "DELETE",
-                "pages": [
-                  "api-documentation/endpoint/units/id/delete"
-                ]
+                "group": "DELETE Requests",
+                "pages": ["api-documentation/endpoint/units/id/delete"]
               }
             ]
           },
           {
-            "tab": "SDK",
+            "tab": "SDK Guide",
             "groups": [
               {
-                "group": "General",
-                "pages": [
-                  "sdk-documentation/introduction"
-                ]
+                "group": "Overview",
+                "pages": ["sdk-documentation/introduction"]
               }
             ]
           }
         ]
       },
       {
-        "anchor": "New releases",
+        "anchor": "New Releases",
         "href": "https://www.planpoint.io/new-releases/updates",
         "icon": "newspaper"
       },
       {
-        "anchor": "Main website",
+        "anchor": "Main Website",
         "href": "https://www.planpoint.io/",
         "icon": "globe"
       },
