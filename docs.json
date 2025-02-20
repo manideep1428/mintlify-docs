@@ -72,35 +72,38 @@
                 "pages": ["api-documentation/endpoint/user/login"]
               },
               {
-                "group": "GET Requests",
+                "group": "Groups",
                 "pages": [
                   "api-documentation/endpoint/groups/get",
+                  "api-documentation/endpoint/groups/post",
+                  "api-documentation/endpoint/groups/patch"
+                ]
+              },
+              {
+                "group": "Projects",
+                "pages": [
                   "api-documentation/endpoint/projects/get",
                   "api-documentation/endpoint/projects/id/get",
+                  "api-documentation/endpoint/projects/post",
+                  "api-documentation/endpoint/projects/id/patch"
+                ]
+              },
+              {
+                "group": "Floors",
+                "pages": [
                   "api-documentation/endpoint/floors/get",
                   "api-documentation/endpoint/floors/id/get",
-                  "api-documentation/endpoint/leads/get"
-                ]
-              },
-              {
-                "group": "POST Requests",
-                "pages": [
-                  "api-documentation/endpoint/groups/post",
-                  "api-documentation/endpoint/projects/post",
-                  "api-documentation/endpoint/floors/post"
-                ]
-              },
-              {
-                "group": "PATCH Requests",
-                "pages": [
-                  "api-documentation/endpoint/groups/patch",
-                  "api-documentation/endpoint/projects/id/patch",
+                  "api-documentation/endpoint/floors/post",
                   "api-documentation/endpoint/floors/id/patch"
                 ]
               },
               {
-                "group": "DELETE Requests",
+                "group": "Units",
                 "pages": ["api-documentation/endpoint/units/id/delete"]
+              },
+              {
+                "group": "Leads",
+                "pages": ["api-documentation/endpoint/leads/get"]
               }
             ]
           },
