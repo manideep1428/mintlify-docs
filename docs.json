@@ -75,8 +75,9 @@
                 "group": "Groups",
                 "pages": [
                   "api-documentation/endpoint/groups/get",
+                  "api-documentation/endpoint/groups/id/get",
                   "api-documentation/endpoint/groups/post",
-                  "api-documentation/endpoint/groups/patch"
+                  "api-documentation/endpoint/groups/id/patch"
                 ]
               },
               {
@@ -99,7 +100,12 @@
               },
               {
                 "group": "Units",
-                "pages": ["api-documentation/endpoint/units/id/delete"]
+                "pages": [
+                  "api-documentation/endpoint/units/get",
+                  "api-documentation/endpoint/units/id/get",
+                  "api-documentation/endpoint/units/post",
+                  "api-documentation/endpoint/units/id/patch",
+                  "api-documentation/endpoint/units/id/delete"]
               },
               {
                 "group": "Leads",
